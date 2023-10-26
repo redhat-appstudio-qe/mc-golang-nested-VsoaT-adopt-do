@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: componenta-devfile-sample-go-basic-private-devfile-nested-ksar
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-tovk-tenant/mc-golang-nested/componenta-devfile-sample-go-basic-private-devfile-nested-ksar@sha256:f28e0294da5e15e24e752efd2c1f8d081d1cf346421245f801b2507cd076145c
         name: my-go
         ports:
         - containerPort: 8081
